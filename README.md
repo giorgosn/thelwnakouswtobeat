@@ -14,3 +14,7 @@ Listen on:
 * <i class="fab fa-google-play"></i> [Listen on Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s)
 
 Template is based on [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/).
+
+gem install bundler jekyll
+bundle update
+bundle exec jekyll serve

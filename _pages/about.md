@@ -11,13 +11,13 @@ header:
     show_overlay_excerpt: false
 ---
 
-# Welcome to the Developers' Bakery 👨‍🍳
+# Welcome to Thelw Na akousw to Beat
 
-A developer podcast about **tools**, **libraries**, and **productivity**. 
+A project about music exploration. 
 
-The Developers' Bakery is a place for **open-source** developers & maintainers to share their experience and projects. A journey through the tools and libraries that help developers worldwide **baking great software** daily.
+Thelw Na akousw to Beat is a hobby project to explore the music and the people around it.
 
-Join Nicola through this journey among open source and beyond.
+Join us to this exploration.
 
 
 ## Your Host
@@ -26,11 +26,9 @@ Join Nicola through this journey among open source and beyond.
     <img style="max-width:40%;object-fit:cover;border-radius:50%;" src="/assets/images/nicola-corti.jpg">
 </p>
 
-Nicola Corti is a Kotlin GDE, and a passionate open source developer. He's currently working as Android Infrastructure Engineer in the React Native team, based in London, UK.
+Npizza is a someone that loves music.
 
-He spoke at numerous conferences internationally about Mobile development, and he is passionate for anything community related. He founded and managed developers community across Europe (GDG Pisa, KUG Hamburg, GDG Stockholm Android)
 
-In his free time, he also loves baking, photography and running.
 
 * [@cortinico](https://github.com/cortinico/) on Github <i class="fab fa-github"></i>
 * [@cortinico](https://twitter.com/cortinico/) on Twitter <i class="fab fa-twitter"></i>
