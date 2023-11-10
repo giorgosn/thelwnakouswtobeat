@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://thebakery.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thebakery.dev/" rel="alternate" type="text/html" /><updated>2023-11-10T15:35:44+00:00</updated><id>https://thebakery.dev/feed.xml</id><title type="html">Thelw na akousw to Beat</title><subtitle>A project of music.</subtitle><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><entry><title type="html">#69 - compose-rules with Nacho Lopez</title><link href="https://thebakery.dev/69/" rel="alternate" type="text/html" title="#69 - compose-rules with Nacho Lopez" /><published>2023-10-25T00:00:00+01:00</published><updated>2023-10-25T00:00:00+01:00</updated><id>https://thebakery.dev/069-compose-rules</id><content type="html" xml:base="https://thebakery.dev/69/"><![CDATA[<iframe src="https://open.spotify.com/embed-podcast/show/4jV6Yoz7D38sZJlYMzJm3k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<p>We’re back talking about <strong>static analysis</strong> today here at The Developers’ Bakery! We’re really excited to have on stage <a href="https://twitter.com/mrmans0n"><strong>Nacho Lopez</strong></a> to talk about <a href="https://github.com/mrmans0n/compose-rules"><strong>Compose Rules</strong></a>.</p>
+
+<p>This project is a collection of linting and inspection rules for Jetpack Compose, which prevents you from making common mistakes and helps you write better and more performant UI code.
+You can use this rule with either KtLint or Detekt.</p>
+
+<p>In this episode, we’ll also touch on how this project started inside Twitter, and now ends up living into Nacho’s personal fork.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.03</strong> Nacho’s Introduction</li>
+  <li><strong>04.21</strong> What is compose-rules?</li>
+  <li><strong>08.39</strong> Compose Antipatterns</li>
+  <li><strong>13.47</strong> How to use compose-rules?</li>
+  <li><strong>15.28</strong> Writing custom rules</li>
+  <li><strong>19.56</strong> The Twitter drama</li>
+  <li><strong>29.23</strong> Living in a fork</li>
+  <li><strong>36.09</strong> What’s next for compose-rules?</li>
+  <li><strong>42.39</strong> Further reading</li>
+  <li><strong>44.41</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n/compose-rules">mrmans0n/compose-rules on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://mrmans0n.github.io/compose-rules/">Compose Rules Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi.html">What is the PSI?</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/docs/intellij/psi-cookbook.html">PSI Cookbook</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mrmans0n">@mrmans0n on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mrmans0n">@mrmans0n on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@nacho">@nacho on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez]]></summary></entry><entry><title type="html">#68 - Pandas and Polars with Marco Gorelli</title><link href="https://thebakery.dev/68/" rel="alternate" type="text/html" title="#68 - Pandas and Polars with Marco Gorelli" /><published>2023-10-10T00:00:00+01:00</published><updated>2023-10-10T00:00:00+01:00</updated><id>https://thebakery.dev/068-pandas-and-polars</id><content type="html" xml:base="https://thebakery.dev/68/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7KojxU3MUM7VZRhricZXaG?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>Time for a brand-new topic today here at The Developers’ Bakery: <strong>Data Science</strong>! We’re really excited to have on stage <a href="https://github.com/MarcoGorelli">Marco Gorelli</a>, core contributor of both <a href="https://pandas.pydata.org/">pandas</a> and <a href="https://pola.rs/">polars</a>, two of the most popular data science libraries in the Python ecosystem.</p>
+
+<p>In this episode, we’ll talk about how pandas became so popular in the data science space. Then we’ll move on to talk about polars, a new data science library written in Rust, and how its performances compare to pandas.</p>
+
+<p>Finally, we’ll have the opportunity to touch on a very interesting and unique topic: the <strong>Dataframe Consortium</strong>, a multi-company effort to standardize the data science API across the ecosystem.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.14</strong> Intro</li>
+  <li><strong>01.00</strong> Episode Start</li>
+  <li><strong>01.30</strong> Marco’s Introduction</li>
+  <li><strong>02.14</strong> What is pandas?</li>
+  <li><strong>03.27</strong> Why do I need pandas?</li>
+  <li><strong>05.19</strong> pandas’ competitors</li>
+  <li><strong>07.24</strong> pandas’ popularity</li>
+  <li><strong>10.12</strong> What’s your role with pandas?</li>
+  <li><strong>12.39</strong> How to become a pandas maintainer?</li>
+  <li><strong>13.50</strong> From data scientist to open source maintainer</li>
+  <li><strong>16.02</strong> What is polars?</li>
+  <li><strong>21.22</strong> Can pandas and polars co-exist?</li>
+  <li><strong>24.25</strong> Performance benchmarks</li>
+  <li><strong>26.21</strong> The learning curve</li>
+  <li><strong>29.11</strong> Naming anecdotes</li>
+  <li><strong>30.51</strong> The Dataframe Consortium?</li>
+  <li><strong>40.12</strong> Marco’s role in the consortium</li>
+  <li><strong>43.40</strong> What’s next for polars?</li>
+  <li><strong>46.50</strong> How to start contributing?</li>
+  <li><strong>50.56</strong> Further reading</li>
+  <li><strong>53.33</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/pandas-dev/pandas">pandas-dev/pandas on GitHub</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/pola-rs/polars">pola-rs/polars on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://pandas.pydata.org/">Pandas Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://pola.rs/">Polars Official Website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://data-apis.org/">Dataframe API Consortium Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://pandas.pydata.org/docs/user_guide/index.html">Pandas User Guide</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://pola-rs.github.io/polars/user-guide/">Polars User Guide</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://data-apis.org/dataframe-api/draft/">Dataframe API Standard definition</a></li>
+      <li><i class="fab fa-youtube"></i> What polars does for you - <a href="https://youtu.be/UwRlFtSd_-8">Video from EuroPython</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://duckdblabs.github.io/db-benchmark/">H2O Benchmark</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.pola.rs/benchmarks.html">Polars - TPCH Benchmark</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MarcoGorelli">@MarcoGorelli on GitHub</a></li>
+  <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/marcogorelli/">Marco Gorelli on LinkedIn</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Data science and dataframes with pandas, polars and Marco Gorelli]]></summary></entry><entry><title type="html">#67 - Effect with Michael Arnaldi</title><link href="https://thebakery.dev/67/" rel="alternate" type="text/html" title="#67 - Effect with Michael Arnaldi" /><published>2023-09-19T00:00:00+01:00</published><updated>2023-09-19T00:00:00+01:00</updated><id>https://thebakery.dev/067-effect</id><content type="html" xml:base="https://thebakery.dev/67/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0z7foJZlCUwMJa9Tt7Qs9l?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>It’s time to talk again about Functional Programming (or maybe not?!) with today’s episode! I’m glad to have on stage <a href="https://twitter.com/MichaelArnaldi"><strong>Michael Arnaldi</strong></a>, author and maintainer of <a href="https://github.com/Effect-TS/effect"><strong>Effect</strong></a>.</p>
+
+<p>Effect is a Functional Programming library for TypeScript, that offers primitives to support error management, concurrency and much more. But Effect is also an entire ecosystem of integrations with existing and frameworks and libraries, which makes adopting Effect so much easier.</p>
+
+<p>Join us in this episode as Michael walk us through on his take on Functional Programming and the story behind Effect.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.07</strong> Nicolò’s Introduction</li>
+  <li><strong>02.37</strong> What is Effect?</li>
+  <li><strong>04.39</strong> Is this a Functional Programming library?</li>
+  <li><strong>09.18</strong> <code class="language-plaintext highlighter-rouge">Effects&lt;Requirements, Errors, Value&gt;</code></li>
+  <li><strong>20.11</strong> Effect and Concurrency</li>
+  <li><strong>30.29</strong> The Effect ecosystem</li>
+  <li><strong>37.30</strong> The history of Effect</li>
+  <li><strong>42.30</strong> 1.0?</li>
+  <li><strong>45.45</strong> Further reading</li>
+  <li><strong>50.29</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Effect-TS/effect">Effect-TS/effect on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://www.effect.website/">Effect Official Website</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/EffectTS_">@EffectTS_ on Twitter</a></li>
+  <li><i class="fab fa-discord"></i> <a href="https://discord.gg/effect-ts">Effect Discord Community</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i><a href="https://www.youtube.com/@ethanniser">Ethan Niser’s Youtube Channel</a></li>
+      <li><i class="fab fa-youtube"></i> Introduction to Effect - <a href="https://www.youtube.com/watch?v=zrNr3JVUc8I">Video from WorkerConf 2022</a></li>
+      <li><i class="fab fa-youtube"></i> Effect ful computations with Fibers - <a href="https://www.youtube.com/watch?v=uwALExyq4NY">Video from React Alicante</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mikearnaldi">@mikearnaldi on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/MichaelArnaldi">@MichaelArnaldi on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Functional Programming in TypeScript with Effect and Michael Arnaldi]]></summary></entry><entry><title type="html">#66 - Babel with Nicolò Ribaudo</title><link href="https://thebakery.dev/66/" rel="alternate" type="text/html" title="#66 - Babel with Nicolò Ribaudo" /><published>2023-09-05T00:00:00+01:00</published><updated>2023-09-05T00:00:00+01:00</updated><id>https://thebakery.dev/066-babel</id><content type="html" xml:base="https://thebakery.dev/66/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7II6kl5B1ajYTxONJgXv5t?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>Today we have the honor to spotlight a fundamental tool of the web ecosystem: <a href="https://github.com/babel/babel"><strong>Babel</strong></a>. If you don’t know Babel, it’s a JavaScript compiler that allows you to write next generation JavaScript and compile it to a version that is compatible with all the browsers.</p>
+
+<p><a href="https://tech.lgbt/@nic"><strong>Nicolò Ribaudo</strong></a>, one of the Babel maintainers, is on stage to tell us the story of this project, how it became so popular, and its role in the daily life of a web developer.</p>
+
+<p>We’ll touch also on the topic of funding and sponsoring, and learn how Babel managed to hire engineers with Open Source donations!</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.32</strong> Nicolò’s Introduction</li>
+  <li><strong>02.53</strong> What is Babel?</li>
+  <li><strong>06.15</strong> How Babel became so popular?</li>
+  <li><strong>10.28</strong> The web ecosystem speed</li>
+  <li><strong>13.56</strong> Browserlist</li>
+  <li><strong>16.49</strong> Babel &amp; Performances</li>
+  <li><strong>20.09</strong> Continous Benchmarking</li>
+  <li><strong>22.42</strong> Extending Babel</li>
+  <li><strong>27.20</strong> Build tools integrations</li>
+  <li><strong>30.07</strong> How Nicolò got involved with Babel?</li>
+  <li><strong>33.30</strong> Who’s maintaining Babel?</li>
+  <li><strong>35.33</strong> Who’s funding Babel?</li>
+  <li><strong>38.19</strong> Hiring engineers with donation</li>
+  <li><strong>40.39</strong> Call for donations</li>
+  <li><strong>42.29</strong> Babel will never be done</li>
+  <li><strong>44.35</strong> Babel 8</li>
+  <li><strong>47.11</strong> How to get involved?</li>
+  <li><strong>50.34</strong> Further reading</li>
+  <li><strong>53.23</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/babel/babel">babel/babel on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://babel.dev/">Babel Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-youtube"></i> @babel/how-to - <a href="https://youtu.be/UeVq_U5obnE?si=Ox4kp44G4htjHf_6">Video from HolyJS 2019</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://babel.dev/videos/">Babel Videos Page</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.nan.fyi/tokenizer">nan.fyi - Rebuilding Babel: The Tokenizer</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/nicolo-ribaudo">@nicolo-ribaudo on GitHub</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://tech.lgbt/@nic">@nic on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Compiling next generation JavaScript for all the browsers, with Babel and Nicolò Ribaudo]]></summary></entry><entry><title type="html">#65 - WebdriverIO with Christian Bromann</title><link href="https://thebakery.dev/65/" rel="alternate" type="text/html" title="#65 - WebdriverIO with Christian Bromann" /><published>2023-08-22T00:00:00+01:00</published><updated>2023-08-22T00:00:00+01:00</updated><id>https://thebakery.dev/065-webdriverio</id><content type="html" xml:base="https://thebakery.dev/65/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2dgQA1pscsv0YplvJF5AH7?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>It’s time to talk about testing again, but this time we’ll talk about <strong>cross-platform UI testing</strong>. I’m glad to have on stage <a href="https://twitter.com/bromann"><strong>Christian Bromann</strong></a>, the lead maintainer of <a href="https://github.com/webdriverio/webdriverio"><strong>WebdriverIO</strong></a>.</p>
+
+<p>With WebdriverIO, you can write UI tests for your web, mobile, desktop application and much more. WebdriverIO relies on the Webdriver protocol, a Web standard to support test automation, so you can use the programming language you prefer to easily test your apps wherever you want.</p>
+
+<p>Moreover, WebdriverIO is a project hosted by the <strong>OpenJS</strong> foundation. Together with Christian we’ll touch on what it means being part of a foundation and what this meant for the success of this project.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.35</strong> Dmitry’s Introduction</li>
+  <li><strong>02.53</strong> What is WebdriverIO?</li>
+  <li><strong>04.53</strong> Testing Browser and Mobile applications</li>
+  <li><strong>06.16</strong> The Webdriver protocol</li>
+  <li><strong>08.58</strong> How to write tests with WebdriverIO?</li>
+  <li><strong>10.56</strong> WebdriverIO competitors and unique features</li>
+  <li><strong>13.15</strong> Handling flakiness</li>
+  <li><strong>16.46</strong> Running WebdriverIO in the cloud</li>
+  <li><strong>20.25</strong> Why should I use WebdriverIO vs my native testing framework?</li>
+  <li><strong>22.32</strong> How you got involved with WebdriverIO?</li>
+  <li><strong>25.50</strong> Who’s funding WebdriverIO?</li>
+  <li><strong>29.03</strong> Being part of the OpenJS foundation</li>
+  <li><strong>31.16</strong> Governance model</li>
+  <li><strong>37.31</strong> How to contribute to WebdriverIO?</li>
+  <li><strong>40.11</strong> What’s next for WebdriverIO?</li>
+  <li><strong>42.15</strong> Further reading</li>
+  <li><strong>43.58</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/webdriverio/webdriverio">webdriverio/webdriverio on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://webdriver.io/">WebdriverIO Official Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://w3c.github.io/webdriver/">Webdriver Standard</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://webdriver.io/docs/why-webdriverio">WebdriverIO - Getting Started</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://webdriver.io/docs/why-webdriverio">Why WebdriverIO?</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://github.com/webdriverio/webdriverio/blob/main/GOVERNANCE.md">WebdriverIO Governance Model</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://saucelabs.com/">SauceLabs Official Website</a></li>
+    </ul>
+  </li>
+  <li><i class="fas fa-link"></i> <a href="https://bromann.dev/">WebdriverIO Official Website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/christian-bromann">@christian-bromann on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/bromann">@bromann on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Cross platform UI testing with WebdriverIO and Christian Bromann]]></summary></entry><entry><title type="html">#64 - LivePlugin with Dmitry Kandalov</title><link href="https://thebakery.dev/64/" rel="alternate" type="text/html" title="#64 - LivePlugin with Dmitry Kandalov" /><published>2023-08-08T00:00:00+01:00</published><updated>2023-08-08T00:00:00+01:00</updated><id>https://thebakery.dev/064-liveplugin</id><content type="html" xml:base="https://thebakery.dev/64/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/00805TFtpP58W4rcG5W7Jb?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>In this episode of The Developers’ Bakery, we have the pleasure of hosting <a href="https://mastodon.social/@dkandalov"><strong>Dmitry Kandalov</strong></a>, the author of <a href="https://github.com/dkandalov/live-plugin"><strong>LivePlugin</strong></a>. With LivePlugin you can easily create IDE Plugins for IntelliJ (and other JetBrains IDEs) in the blink of an eye, you won’t need to restart your IDE anymore!</p>
+
+<p>If you’re looking to supercharge your productivity and make your IDE truly yours, this episode is a must-listen. Dmitry will inspire you with his passion for plugin development and reveal the secrets behind his IDE customizations.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.07</strong> Intro</li>
+  <li><strong>00.53</strong> Episode Start</li>
+  <li><strong>01.35</strong> Dmitry’s Introduction</li>
+  <li><strong>03.18</strong> What is LivePlugin?</li>
+  <li><strong>04.23</strong> How do you create an IntelliJ plugin?</li>
+  <li><strong>05.14</strong> No need to restart your IDE</li>
+  <li><strong>07.09</strong> Can I ship a LivePlugin to prodcution?</li>
+  <li><strong>09.25</strong> Plugins as a single Kotlin file</li>
+  <li><strong>10.48</strong> LivePlugin success stories</li>
+  <li><strong>13.22</strong> IDE Plugin vs CLI</li>
+  <li><strong>19.31</strong> Debugging a plugin</li>
+  <li><strong>22.03</strong> Dmitry’s favorite plugins</li>
+  <li><strong>23.53</strong> IDE Customization</li>
+  <li><strong>25.19</strong> Dark themes</li>
+  <li><strong>26.09</strong> IJKL</li>
+  <li><strong>27.38</strong> How you got into plugin development?</li>
+  <li><strong>31.56</strong> Have you tried writing plugins for other IDEs?</li>
+  <li><strong>33.21</strong> How to contribute to LivePlugin?</li>
+  <li><strong>36.24</strong> What’s next for LivePlugin?</li>
+  <li><strong>38.52</strong> Paid Plugins</li>
+  <li><strong>42.16</strong> Limited Work in Progress</li>
+  <li><strong>46.23</strong> Further reading</li>
+  <li><strong>47.56</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/live-plugin">dkandalov/live-plugin on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/liveplugin">Sane Intellij Plugin Development With Live Plugin - Dmitry’s Blog</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/quick-fix">dkandalov/quick-fix on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/16366-quick-fix">Quick Fix on Jetbrains Marketplace</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/ijkl-shortcuts-plugin">dkandalov/ijkl-shortcuts-plugin on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/9852-ijkl-shortcuts">IJKL Shortcuts on Jetbrains Marketplace</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov/limited-wip">dkandalov/limited-wip on GitHub</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/7655-limited-wip">Limited WIP on Jetbrains Marketplace</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/intellij-settings">Dmitry’s IDE Settings</a></li>
+      <li><i class="fab fa-youtube"></i> Extending IntelliJ-based IDEs at runtime - <a href="https://www.youtube.com/watch?v=pgGg-IwUQYM">#4 from Busy Plugin Developers</a></li>
+      <li><i class="fab fa-youtube"></i> Live Coding Kotlin/Native Snake by Dmitry Kandalov - <a href="https://www.youtube.com/watch?v=U-gdJQeOVAk">Video from KotlinConf 2018</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://plugins.jetbrains.com/plugin/227-psiviewer">PSI Viewer on Jetbrains Marketplace</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-slack"></i> <a href="https://plugins.jetbrains.com/slack">Jetbrains Marketplace on Slack</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/dkandalov">@dkandalov on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/dmitrykandalov">@dmitrykandalov on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://mastodon.social/@dkandalov">@dkandalov on Mastodon</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://dmitrykandalov.com/">Dmitry’s Website</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Boost your productivity with custom IDE Plugin and finest customization with LivePlugin and Dmitry Kandalov]]></summary></entry><entry><title type="html">#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič</title><link href="https://thebakery.dev/63/" rel="alternate" type="text/html" title="#63 - Modern Android Development with Boris Farber and Tomáš Mlynarič" /><published>2023-07-25T00:00:00+01:00</published><updated>2023-07-25T00:00:00+01:00</updated><id>https://thebakery.dev/063-modern-android-development</id><content type="html" xml:base="https://thebakery.dev/63/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1MLP6khGsRtKzt1wjuHgTF?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p><img src="/assets/images/posts/ioconnect.jpg" alt="io connect photo" /></p>
+
+<p>Welcome to a special <strong>in-person episode</strong> of The Developers’ Bakery, recorded live in <strong>Amsterdam</strong> at Google IO Connect.</p>
+
+<p>There, I had the privilege of having on stage <a href="https://twitter.com/borisfarber"><strong>Boris Farber</strong></a> and <a href="https://twitter.com/mlykotom"><strong>Tomáš Mlynarič</strong></a> from Google and they will tell us What’s New in Android. As I’m a big fan of build tool, in this episode we’re going to delve into some of the updates for popular <strong>devtools</strong> for Android: Android Studio, Android Gradle Plugin (AGP), Gradle KTS and much more.</p>
+
+<p>We’ll have also the opportunity to discover <strong>Baseline Profiles</strong>, a new mechanism to boost the performance of your Android apps.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.39</strong> Tomáš’ Introduction</li>
+  <li><strong>02.22</strong> Boris’ Introduction</li>
+  <li><strong>02.47</strong> What’s New in Android?</li>
+  <li><strong>04.02</strong> Gradle KTS</li>
+  <li><strong>05.51</strong> Gradle Version Catalog</li>
+  <li><strong>08.06</strong> Android Gradle Plugin (AGP)</li>
+  <li><strong>10.02</strong> Java 17</li>
+  <li><strong>12.21</strong> Alpha, beta and stable releases</li>
+  <li><strong>15.18</strong> What are Baseline Profiles?</li>
+  <li><strong>19.08</strong> What does a Baseline Profile look like?</li>
+  <li><strong>20.29</strong> How to create a Baseline Profile?</li>
+  <li><strong>22.51</strong> Which flows to include in a Baseline Profile?</li>
+  <li><strong>25.28</strong> Baseline Profiles for Library Authors</li>
+  <li><strong>27.53</strong> Performance wins</li>
+  <li><strong>28.49</strong> Where is the Android code?</li>
+  <li><strong>30.47</strong> How to contribute to Android?</li>
+  <li><strong>33.33</strong> Reporting a bug for Android</li>
+  <li><strong>35.07</strong> Too many bug reports!</li>
+  <li><strong>37.03</strong> Effective triaging</li>
+  <li><strong>38.32</strong> Reproducers</li>
+  <li><strong>39.21</strong> Which future for Gradle on Android?</li>
+  <li><strong>40.53</strong> Further reading</li>
+  <li><strong>42.44</strong> Docs for KTS migration</li>
+  <li><strong>43.54</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-youtube"></i> Google IO - <a href="https://io.google/2023/program/035d04f9-bc75-479e-8865-493151c867c4/">What’s New in Android</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build">AGP Landing Page</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build/migrate-to-kotlin-dsl">Migrate your build file from Groovy to Kotlin</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://developer.android.com/build/migrate-to-catalogs">Migrate to version catalogs</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/android/nowinandroid">android/nowinandroid on GitHub</a></li>
+      <li><i class="fab fa-youtube"></i> Android Dev Summit - <a href="https://youtu.be/yJm5On5Gp4c">Making apps blazing fast with Baseline Profiles</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://medium.com/androiddevelopers/whats-new-in-android-performance-google-i-o-2023-edition-21a1832c9fa3">What’s new in Android Performance - IO 2023</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://cs.android.com/">Android Source Code</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/borisf">@borisf on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/borisfarber">@borisfarber on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://farber.io/">Boris’ website</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/mlykotom">@mlykotom on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/mlykotom">@mlykotom on Twitter</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[I met in person with Boris and Tomáš at IO Connect to talk about what's new in Android!]]></summary></entry><entry><title type="html">#62 - Marathon with Anton Malinskiy</title><link href="https://thebakery.dev/62/" rel="alternate" type="text/html" title="#62 - Marathon with Anton Malinskiy" /><published>2023-07-10T00:00:00+01:00</published><updated>2023-07-10T00:00:00+01:00</updated><id>https://thebakery.dev/062-marathon</id><content type="html" xml:base="https://thebakery.dev/62/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7dhzeGKans9AlwvkOzEImP?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>In today’s episode, we talk about a problem that most Mobile developers faced in their career <strong>flaky tests</strong>, and we do it with <a href="https://twitter.com/anton_malinskiy"><strong>Anton Malinskiy</strong></a>, joining us to talk about <a href="https://github.com/MarathonLabs/marathon"><strong>Marathon</strong></a>, the Mobile UI Test runner.</p>
+
+<p>We all know that ensuring high quality and reliability of our mobile apps is key to our success and to a 5-star rating. That’s why mobile testing is so important.  Marathon helps us in this endeavour, orchestrating our test execution in a smart way to parallelize our tests and reduce flakiness.</p>
+
+<p>Anton is going to guide us with us through Marathon’s capabilities, its unique features, and the challenges it solves in the realm of UI testing.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.02</strong> Anton’s Introduction</li>
+  <li><strong>02.48</strong> What is Marathon?</li>
+  <li><strong>06.15</strong> Why UI testing for mobile is hard?</li>
+  <li><strong>09.35</strong> What are the features of Marathon?</li>
+  <li><strong>12.39</strong> Handling flakyness</li>
+  <li><strong>15.51</strong> Learning from other test runs</li>
+  <li><strong>17.07</strong> Running adb commands during tests</li>
+  <li><strong>19.21</strong> Optimizing for parallelism</li>
+  <li><strong>23.08</strong> How does Marathon compares to similar tools?</li>
+  <li><strong>29.17</strong> Why GPL 2.0?</li>
+  <li><strong>31.53</strong> License switching</li>
+  <li><strong>33.45</strong> Marathon Cloud</li>
+  <li><strong>38.03</strong> Running tests under 15 minutes</li>
+  <li><strong>41.20</strong> Marathon Cloud for OSS</li>
+  <li><strong>42.08</strong> Further reading</li>
+  <li><strong>45.02</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/MarathonLabs/marathon">MarathonLabs/marathon on GitHub</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://docs.marathonlabs.io/">Marathon Official Docs</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://medium.marathonlabs.io/">Marathon Official Blog</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://marathonlabs.io/">Marathon Cloud Website</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> Blogpost Series: I want to run any number of Android UI tests on each PR. <a href="https://proandroiddev.com/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-your-actions-part-i-40d694c7d641">Part 1</a> <a href="https://proandroiddev.com/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-cost-part-ii-76e83b393aa1">Part 2</a> <a href="https://medium.marathonlabs.io/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-existing-solutions-part-iii-4f40b1c22b12">Part 3</a> <a href="https://medium.marathonlabs.io/i-want-to-run-any-number-of-android-ui-tests-on-each-pr-existing-solutions-part-iv-c6452210a895">Part 4</a></li>
+      <li><i class="fas fa-link"></i> Blogpost Series: Marathon Early Design. <a href="https://proandroiddev.com/marathon-chapter-1-97f295054cc4">Part 1</a> <a href="https://proandroiddev.com/marathon-chapter-2-1cde95cfdb87">Part 2</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Malinskiy/heisenbug-2023-spring-marathon-samples/tree/master">Example of optimal setup of Marathon</a></li>
+    </ul>
+  </li>
+  <li>Inspirational Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://www.sqlite.org/testing.html">How SQLite Is Tested</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.infoq.com/presentations/Development-at-Google/">Development at the Speed and Scale of Google</a></li>
+      <li><i class="fab fa-youtube"></i> Testing @ Google - <a href="https://www.youtube.com/watch?v=b52aXZ2yi08">Video 1</a> <a href="https://www.youtube.com/watch?v=2qv3fcXW1mg">Video 2</a> <a href="https://www.youtube.com/watch?v=KH2_sB1A6lA">Video 3</a> <a href="https://www.youtube.com/watch?v=yx6ErjPYDeY&amp;t=1800s">Video 4</a></li>
+    </ul>
+  </li>
+  <li>Connect with Marathon:
+    <ul>
+      <li><i class="fab fa-slack"></i> <a href="https://bit.ly/2LLghaW">Marathon on Slack</a></li>
+      <li><i class="fas fa-paper-plane"></i> <a href="https://t.me/marathontestrunner">@marathontestrunner on Telegram</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/Malinskiy">@Malinskiy on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/anton_malinskiy">@anton_malinskiy on Twitter</a></li>
+  <li><i class="fas fa-paper-plane"></i> <a href="https://t.me/Malinskiy">@Malinskiy on Telegram</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Time to forget about flaky UI test on Mobile with Marathon and Anton Malinskiy]]></summary></entry><entry><title type="html">#61 - KDE with Niccolò Venerandi</title><link href="https://thebakery.dev/61/" rel="alternate" type="text/html" title="#61 - KDE with Niccolò Venerandi" /><published>2023-06-26T00:00:00+01:00</published><updated>2023-06-26T00:00:00+01:00</updated><id>https://thebakery.dev/061-kde</id><content type="html" xml:base="https://thebakery.dev/61/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/047mkBU1dP1y6Am3kS6cEp?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>I’m really excited for today’s episode as we’re going to talk about Linux Desktop Environments with <a href="https://twitter.com/veggero"><strong>Niccolò Venerandi</strong></a>, a KDE contributor.</p>
+
+<p>Niccolò has been contributing to KDE Plasma for multiple years. He’s going to tell us how the KDE project is working, how it’s funded and how it is possible to contribute to it.</p>
+
+<p>He also runs a popular YouTube channel about KDE &amp; Linux that he’s using to found his Open Source work!</p>
+
+<p>In this episode, we’re going to learn his secrets and how he’s planning to grow his engagement with KDE through this channel.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.10</strong> Intro</li>
+  <li><strong>00.56</strong> Episode Start</li>
+  <li><strong>01.12</strong> Niccolò’s Introduction</li>
+  <li><strong>02.31</strong> What is KDE?</li>
+  <li><strong>04.49</strong> What is your role within KDE?</li>
+  <li><strong>05.51</strong> KDE Plasma on a Steam Deck</li>
+  <li><strong>06.44</strong> Which Linux distro are you using?</li>
+  <li><strong>07.12</strong> Which Linux distro are you recommending?</li>
+  <li><strong>07.54</strong> How you got involved with KDE?</li>
+  <li><strong>10.37</strong> Where is KDE’s code?</li>
+  <li><strong>11.11</strong> Mentoring in the KDE community</li>
+  <li><strong>12.22</strong> Whick programming languages are used for KDE?</li>
+  <li><strong>14.21</strong> GNOME vs KDE</li>
+  <li><strong>16.55</strong> How is KDE funded?</li>
+  <li><strong>20.13</strong> How anarchy sometimes work</li>
+  <li><strong>22.34</strong> Meeting the KDE community</li>
+  <li><strong>24.10</strong> Different ways of doing Open Source</li>
+  <li><strong>29.10</strong> How to start contributing to KDE?</li>
+  <li><strong>31.22</strong> What KDE needs right now?</li>
+  <li><strong>32.06</strong> kNaming</li>
+  <li><strong>34.05</strong> Nicco Loves Linux</li>
+  <li><strong>36.47</strong> Sustaining Open Source via YouTube</li>
+  <li><strong>39.39</strong> Marketing is hard</li>
+  <li><strong>42.34</strong> Further reading</li>
+  <li><strong>44.35</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://invent.kde.org">KDE on GitLab</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://kde.org/">KDE official website</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://community.kde.org/Get_Involved">Get involved with KDE</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://pointieststick.com/">Nate Graham’s Blog</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://pointieststick.com/2020/08/04/the-structure-of-kde-or-how-anarchy-sometimes-works/">How anarchy sometimes work</a></li>
+    </ul>
+  </li>
+  <li>Mentioned Linux YouTubers:
+    <ul>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@thelinuxexp">@thelinuxexp on YouTube</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@TechHut">@TechHut on YouTube</a></li>
+      <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@TheLinuxCast">@TheLinuxCast on YouTube</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@niccoloveslinux">@niccoloveslinux on YouTube</a></li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/veggero">@veggero on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/veggero">@veggero on Twitter</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://nicco.love/">Niccolò’s Blog</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Contributing to Linux on Desktop with KDE and Niccolò Venerandi]]></summary></entry><entry><title type="html">#60 - Effective Android with Jorge Castillo</title><link href="https://thebakery.dev/60/" rel="alternate" type="text/html" title="#60 - Effective Android with Jorge Castillo" /><published>2023-06-13T00:00:00+01:00</published><updated>2023-06-13T00:00:00+01:00</updated><id>https://thebakery.dev/060-effective-android</id><content type="html" xml:base="https://thebakery.dev/60/"><![CDATA[<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1f7fMiskEazapgVsYKmsY5?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>It’s time for another <strong>bonus episode</strong> of The Developers’ Bakery! This time, we dive into the world of content creation with <a href="https://twitter.com/JorgeCastilloPR"><strong>Jorge Castillo</strong></a>. Jorge is the author of the blog &amp; newsletter <a href="https://newsletter.jorgecastillo.dev/"><strong>Effective Android</strong></a> and the author of <a href="https://jorgecastillo.dev/book/"><strong>Jetpack Compose internals</strong></a> book.</p>
+
+<p>In this episode we’ll talk about his journey building a newsletter, writing blog posts, preparing courses, and writing books. Join us as we and discover the secrets behind his success.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.00</strong> Intro</li>
+  <li><strong>00.45</strong> Episode Start</li>
+  <li><strong>01.19</strong> Jorge’s Introduction</li>
+  <li><strong>03.13</strong> What is Effective Android?</li>
+  <li><strong>04.01</strong> Kicking off a newsletter</li>
+  <li><strong>05.19</strong> From RSS to your Inbox</li>
+  <li><strong>06.42</strong> How to monetize a newsletter?</li>
+  <li><strong>07.41</strong> Effective Interviews</li>
+  <li><strong>10.01</strong> How an interview is built</li>
+  <li><strong>12.01</strong> Podcast vs written interviews</li>
+  <li><strong>14.02</strong> Where do you find the time?</li>
+  <li><strong>16.36</strong> Jetpack Compose courses</li>
+  <li><strong>18.56</strong> Cohort based courses</li>
+  <li><strong>21.05</strong> Communities around courses</li>
+  <li><strong>23.00</strong> The business of online courses</li>
+  <li><strong>24.33</strong> The challenges of building a course</li>
+  <li><strong>26.51</strong> The book: Jetpack Compose Internals</li>
+  <li><strong>32.04</strong> The book: The Good Teammate</li>
+  <li><strong>32.54</strong> Leanpub</li>
+  <li><strong>34.58</strong> Maintaining Arrow</li>
+  <li><strong>41.05</strong> Further reading</li>
+  <li><strong>44.19</strong> Where people can find you online?</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fas fa-envelope"></i> <a href="https://newsletter.jorgecastillo.dev/">Effective Android on Substack</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://jorgecastillo.dev/">Jorge’s Blog</a></li>
+      <li><i class="fas fa-school"></i> <a href="https://jorgecastillo.dev/course/">Jetpack Compose and internals course</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/book/">Book: Jetpack Compose internals</a></li>
+      <li><i class="fas fa-book"></i> <a href="https://jorgecastillo.dev/thegoodteammate/">Book: The Good Teammate</a></li>
+    </ul>
+  </li>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/JorgeCastilloPrz">@JorgeCastilloPrz on GitHub</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/JorgeCastilloPR">@JorgeCastilloPR on Twitter</a></li>
+  <li><i class="fab fa-mastodon"></i> <a href="https://androiddev.social/@jorge">@jorge on Mastodon</a></li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>]]></content><author><name>Thelw na akousw to beat</name><email>info@thebakery.dev</email></author><summary type="html"><![CDATA[Books, Courses, and Newsletters with Effective Android by Jorge Castillo]]></summary></entry></feed>

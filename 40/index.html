@@ -1,0 +1,651 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>#40 - thebakery.dev with Nicola Corti - Thelw na akousw to Beat</title>
+<meta name="description" content="A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti">
+
+
+  <meta name="author" content="Thelw na akousw to beat">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Thelw na akousw to Beat">
+<meta property="og:title" content="#40 - thebakery.dev with Nicola Corti">
+<meta property="og:url" content="https://thebakery.dev/40/">
+
+
+  <meta property="og:description" content="A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti">
+
+
+
+  <meta property="og:image" content="https://thebakery.dev/assets/images/episodes/40-cover.png">
+
+
+
+  <meta name="twitter:site" content="@thebakerydev">
+  <meta name="twitter:title" content="#40 - thebakery.dev with Nicola Corti">
+  <meta name="twitter:description" content="A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti">
+  <meta name="twitter:url" content="https://thebakery.dev/40/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://thebakery.dev/assets/images/episodes/40-cover.png">
+  
+
+  
+    <meta name="twitter:creator" content="@thebakerydev">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Thelw na akousw to beat">
+  
+
+  
+    <meta name="twitter:label2" content="Published in">
+    <meta name="twitter:data2" content="">
+  
+
+
+
+  <meta property="article:published_time" content="2022-08-08T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://thebakery.dev/40/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Npizza",
+      "url": "https://thebakery.dev",
+      "sameAs": ["https://twitter.com/thebakerydev","https://twitter.com/cortinico"]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<link href="/podcast.xml" type="application/rss+xml" rel="alternate" title="The Developers' Bakery Podcast Feed">
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Thelw na akousw to Beat Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Thelw na akousw to Beat
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/episodes">Episodes</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/header-single-episode.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          #40 - thebakery.dev with Nicola Corti
+
+        
+      </h1>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://thebakery.dev/">
+        <img src="/assets/images/avatar.png" alt="Thelw na akousw to beat" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://thebakery.dev/" itemprop="url">Thelw na akousw to beat</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>A project about music exploration.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Greece, GR</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i><span class="label">Spotify</span></a></li>
+          
+        
+          
+            <li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-google-play" aria-hidden="true"></i><span class="label">Google Podcasts</span></a></li>
+          
+        
+          
+            <li><a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-podcast" aria-hidden="true"></i><span class="label">Apple Podcasts</span></a></li>
+          
+        
+          
+            <li><a href="https://pca.st/vq8ml6pl" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-microphone-alt" aria-hidden="true"></i><span class="label">Pocket Casts</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:info@thebakery.dev" rel="me" class="u-email">
+            <meta itemprop="email" content="info@thebakery.dev" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/thebakerydev" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="#40 - thebakery.dev with Nicola Corti">
+    <meta itemprop="description" content="A special episode to talk about the infrastructure behind thebakery.dev with Nicola Corti">
+    <meta itemprop="datePublished" content="2022-08-08T00:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5aFgYInCVBEoA3K1RsYbLF?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p>As with every 10 episodes, we’re back with a <strong>special episode</strong>! 🎁</p>
+
+<p>Today we’re talking about an open-source project which is a bit atypical: <a href="https://thebakery.dev"><strong>thebakery.dev</strong></a>. Exactly, we’re going to walk through the website and the infrastructure that is powering The Developers’ Bakery.</p>
+
+<p>Did you know that this podcast is fully open-source, self-hosted and running on GitHub pages?</p>
+
+<p>In this episode, I will walk you through all my <strong>secrets</strong> and <strong>automations</strong> that help me publish a podcast every other week!</p>
+
+<p>Do you have any feedback on the show so far? If so, drop me a message <a href="https://thebakery.dev/contact">either on the website</a> or <a href="https://twitter.com/thebakerydev">on Twitter</a>.</p>
+
+<p>Enjoy the show 👨‍🍳</p>
+
+<h1 id="show-notes">Show Notes</h1>
+
+<ul>
+  <li><strong>00.11</strong> Intro</li>
+  <li><strong>00.57</strong> Episode Start</li>
+  <li><strong>01.40</strong> thebakery.dev?</li>
+  <li><strong>03.38</strong> Jekyll</li>
+  <li><strong>04.13</strong> Github Pages</li>
+  <li><strong>04.59</strong> Minimal Mistakes</li>
+  <li><strong>07.35</strong> Formspree</li>
+  <li><strong>08.54</strong> Renovate</li>
+  <li><strong>11.10</strong> podcast.xml</li>
+  <li><strong>16.29</strong> The hosting</li>
+  <li><strong>23.53</strong> Podtrac</li>
+  <li><strong>28.44</strong> Automations</li>
+  <li><strong>31.54</strong> Ideas for the future</li>
+  <li><strong>36.12</strong> Looking for feedback :)</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><i class="fab fa-github"></i> <a href="https://github.com/cortinico/thebakery">cortinico/thebakery on Github</a></li>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev/">thebakery.dev website (lol so recursive!)</a></li>
+  <li>Mentioned Resources:
+    <ul>
+      <li><i class="fas fa-link"></i> <a href="https://jekyllrb.com/">Jekyll - Static Website Generator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes Theme</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/benbalter/jekyll-remote-theme">benbalter/jekyll-remote-theme on Github</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://formspree.io/">Formspree Contact Forms</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://renovatebot.com/">Renovate Bot</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://podcasters.apple.com/support/823-podcast-requirements">Apple - Podcast RSS feed requirements</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://podba.se/validate/">Podbase feed validator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://www.castfeedvalidator.com/">Cast feed validator</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://firebase.google.com/docs/hosting/">Firebase Hosting Docs</a></li>
+      <li><i class="fas fa-link"></i> <a href="https://analytics.podtrac.com/">Podtrac Analytics</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="show-links">Show links</h1>
+
+<ul>
+  <li><i class="fas fa-link"></i> <a href="https://thebakery.dev">Podcast Website</a></li>
+  <li><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/show/4jV6Yoz7D38sZJlYMzJm3k?si=AL3ske_0R_CKlEScMhYhug">The Developers’ Bakery on Spotify</a></li>
+  <li><i class="fas fa-podcast"></i> <a href="https://podcasts.apple.com/us/podcast/the-developers-bakery/id1542849034">The Developers’ Bakery on Apple Podcasts</a></li>
+  <li><i class="fab fa-google-play"></i> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGViYWtlcnkuZGV2L3BvZGNhc3QueG1s">The Developers’ Bakery on Google Podcasts</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/thebakerydev">@thebakerydev on Twitter</a></li>
+  <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/cortinico">@cortinico on Twitter</a></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time class="dt-published" datetime="2022-08-08T00:00:00+01:00">August 8, 2022</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=thebakerydev&text=%2340+-+thebakery.dev+with+Nicola+Corti%20https%3A%2F%2Fthebakery.dev%2F40%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthebakery.dev%2F40%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fthebakery.dev%2F40%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/39/" class="pagination--pager" title="#39 - Docusaurus with Sébastien Lorber
+">Previous</a>
+    
+    
+      <a href="/41/" class="pagination--pager" title="#41 - FlowRedux with Gabriel Ittner and Hannes Dorfmann
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/69/" rel="permalink">#69 - compose-rules with Nacho Lopez
+</a>
+        </h2>
+        <h3 class="archive__date">25 Oct 2023</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Linting and Inspecting Jetpack Compose code with Compose Rules and Nacho Lopez
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/68/" rel="permalink">#68 - Pandas and Polars with Marco Gorelli
+</a>
+        </h2>
+        <h3 class="archive__date">10 Oct 2023</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Data science and dataframes with pandas, polars and Marco Gorelli
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/67/" rel="permalink">#67 - Effect with Michael Arnaldi
+</a>
+        </h2>
+        <h3 class="archive__date">19 Sep 2023</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Functional Programming in TypeScript with Effect and Michael Arnaldi
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item" style="position: relative">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <div style="position:relative;">
+      
+        <div class="archive__item-teaser" style="background-image: url(https://thebakery.dev/assets/images/header-single-episode.png)"></div>
+      
+      <div class="archive__item_titlecontainer">
+        <h2 class="archive__item-title" itemprop="headline">
+            <a href="https://thebakery.dev/66/" rel="permalink">#66 - Babel with Nicolò Ribaudo
+</a>
+        </h2>
+        <h3 class="archive__date">05 Sep 2023</h3>
+      </div>
+    </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Compiling next generation JavaScript for all the browsers, with Babel and Nicolò Ribaudo
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Npizza. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-71657172-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
